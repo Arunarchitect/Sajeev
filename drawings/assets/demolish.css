@@ -111,25 +111,7 @@ text, tspan {
 }
 
 
-.IfcSanitaryTerminal {
-    fill: rgb(234, 239, 246);
-    fill-opacity: .5;
-    stroke: rgb(234, 239, 246);
-    stroke-opacity: 0.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
 
-.IfcSlab {
-    fill: rgb(0, 0, 0);
-    fill-opacity: .2;
-    stroke: rgb(0, 0, 0);
-    stroke-opacity: 0.2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
 
 .IfcWall {
     fill: rgb(165, 201, 242);
@@ -189,15 +171,7 @@ text, tspan {
     stroke-width: 0.25;
 }
 
-.material-blank { 
-    fill: rgb(234, 239, 246);
-    fill-opacity: .5;
-    stroke: rgb(234, 239, 246);
-    stroke-opacity: 0.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
+
 
 .material-stair { 
     fill: rgb(165, 201, 242);
@@ -333,13 +307,3 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
-
-.IfcCovering {
-    fill: rgb(165, 201, 242);
-    fill-opacity: .1;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.1;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-} 
