@@ -76,7 +76,7 @@ text, tspan {
 
 .IfcWindow.EPsetStatus-StatusNEWEXISTING {
     fill: none;
-    stroke: rgb(78, 214, 245);
+    stroke: rgb(7, 4, 75);
     stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -94,7 +94,7 @@ text, tspan {
 
 .IfcDoor.EPsetStatus-StatusNEWEXISTING {
     fill: none;
-    stroke: rgb(78, 214, 245);
+    stroke: rgb(7, 4, 75);
     stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -179,27 +179,28 @@ text, tspan {
 }
 
 .IfcWall {
-    fill: rgb(165, 201, 242);
+    fill: rgb(3, 13, 69);
     fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(0, 13, 28);
     stroke-opacity: 0.9;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
 .material-brick {
-    fill: rgb(165, 201, 242);
+    fill: rgb(3, 13, 69);
     fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(0, 13, 28);
     stroke-opacity: 0.9;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
+
 }
 .material-brick2 {
-    fill: rgb(165, 201, 242);
+    fill: rgb(3, 13, 69);
     fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(0, 13, 28);
     stroke-opacity: 0.9;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -346,7 +347,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 .EPsetStatus-StatusDEMOLISH {
     fill: rgb(241, 126, 126);
     fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(3, 25, 51);
     stroke-opacity: 0.9;
     stroke-linecap: round;
     stroke-linejoin: round;
