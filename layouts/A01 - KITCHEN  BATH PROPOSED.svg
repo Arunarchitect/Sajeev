@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" ns1:docname="A01 - KITCHEN.svg" ns2:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <defs id="defs7" />
+  <ns1:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" ns2:document-units="mm" ns2:zoom="0.24346724" ns2:cx="996.02723" ns2:cy="1378.0088" ns2:window-width="1920" ns2:window-height="991" ns2:window-x="-9" ns2:window-y="-9" ns2:window-maximized="1" ns2:current-layer="root" />
+  <g data-type="titleblock" ns1:insensitive="true" id="g1">
+    <image xlink:href="titleblocks/A1.svg" x="0" y="0" width="841.0" height="594.0" id="image1" />
+  </g>
+  <g data-type="drawing" data-id="21582" data-drawing="1rQ1g988X2ZB6qEyVVkk69" id="g3" transform="translate(-4.292312,187.95252)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5C1-KITCHEN%20PROPOSED.svg" x="30" y="30" width="299.8548" height="350" id="image2" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30" y="364.35211" width="50.222462" height="10" id="image3" />
+  </g>
+  <g data-type="drawing" data-id="21884" data-drawing="1qlT0gWy156A_YAT81y1Mb" id="g5" transform="translate(378.18229,-340.03947)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CKITCHEN%20NS.svg" x="-351.91202" y="379.64166" width="293.5" height="224.02251" id="image4" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="-341.11853" y="572.62225" width="50.222462" height="10" id="image5" />
+  </g>
+  <g data-type="drawing" data-id="22001" data-drawing="1nSrh33_L2H8bCYdorgnw6" id="g7" transform="translate(56.411426,-403.69155)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CKITCHEN%20EW.svg" x="333.5" y="441.51306" width="293.5" height="224.02251" id="image6" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="333.5" y="640.75806" width="50.222462" height="10" id="image7" />
+  </g>
+  <g data-type="drawing" data-id="40873" data-drawing="3dx$We9pX8Be9EfJ7zeT6A" id="g9" transform="translate(535.72626,-353.73086)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5C2-%20BATHSE%20PLAN.svg" x="30" y="675.53558" width="213.85484" height="120.31453" id="image8" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30" y="800.8501" width="50.222462" height="10" id="image9" />
+  </g>
+  <g data-type="drawing" data-id="40874" data-drawing="0ujbT5PbT9Rwh2RpFA4Vkm" id="g11" transform="translate(128.20224,-371.11855)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5C3-%20BATHNW%20PLAN.svg" x="253.85484" y="675.53558" width="161.46106" height="185.54454" id="image10" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="253.85484" y="866.08008" width="50.222462" height="10" id="image11" />
+  </g>
+</svg>
