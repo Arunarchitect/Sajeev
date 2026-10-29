@@ -1,0 +1,61 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
+1,1,Building Estimate,,,,,,,,,
+2,1.1,Civil Work,,,,,,,,,
+3,1.1.1,Demolition,,,,,,,,,
+4,1.1.1.1,Remove existing toilet/kitchen walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""EXISTING"", ""EPset_Status"".""Status"" = ""DEMOLISH"""
+5,1.1.1.2,Remove existing floor finishes,,m2,,,,,,NetArea,"IfcSlab, ""EPset_Status"".""Status"" = ""DEMOLISH"", ""PredefinedType"" = ""FLOORING"""
+6,1.1.1.3,Remove existing wall finishes,,lumsum,,5000,,,5000,,
+8,1.1.1.5,Remove existing sanitary fixtures,,lumsum,,5000,,,5000,,
+9,1.1.1.6,Remove existing kitchen cabinets,,lumsum,,5000,,,5000,,
+10,1.1.1.7,Remove existing plumbing,,lumsum,,5000,,,5000,,
+11,1.1.1.8,Remove existing electrical,,lumsum,,5000,,,5000,,
+12,1.1.2,Wall Construction,,,,,,,,,
+13,1.1.2.1,New brick/block walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+14,1.1.2.2,Lintel RCC,,m3,,,,,,NetVolume,"IfcBeam, ""EPset_Status"".""Status"" = ""NEW"""
+15,1.1.2.3,Plaster one side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+16,1.1.2.4,Plaster other side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+17,1.1.2.5,Waterproofing wet areas,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""MEMBRANE"""
+18,1.1.3,Floor and Wall Tiling,,,,,,,,,
+19,1.1.3.1,Floor screed,,m2,,,,,,NetArea,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""FLOOR"""
+20,1.1.3.2,Floor tiling,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""FLOORING"""
+21,1.1.3.3,Wall tiling toilet,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CLADDING"""
+22,1.1.3.4,Wall tiling kitchen,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CLADDING"""
+23,1.1.3.5,Skirting,,m,,,,,,Length,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""SKIRTINGBOARD"""
+25,1.2,Plumbing,,,,,,,,,
+26,1.2.1,Water supply piping,,m,,,,,,Length,"IfcPipeSegment, ""EPset_Status"".""Status"" = ""NEW"""
+27,1.2.2,Drainage piping,,m,,,,,,Length,"IfcPipeSegment, ""EPset_Status"".""Status"" = ""NEW"""
+28,1.2.3,Pipe fittings,,No,,,,,,Count,"IfcPipeFitting, ""EPset_Status"".""Status"" = ""NEW"""
+29,1.2.4,Valves and accessories,,No,,,,,,Count,"IfcValve, ""EPset_Status"".""Status"" = ""NEW"""
+30,1.2.5,Floor drains,,No,,,,,,Count,"IfcWasteTerminal, ""EPset_Status"".""Status"" = ""NEW"""
+31,1.3,Electrical,,,,,,,,,
+32,1.3.1,Conduit,,m,,,,,,Length,"IfcCableCarrierSegment, ""EPset_Status"".""Status"" = ""NEW"""
+33,1.3.2,Wiring,,m,,,,,,Length,"IfcCableSegment, ""EPset_Status"".""Status"" = ""NEW"""
+34,1.3.3,Switches,,No,,,,,,Count,"IfcSwitchingDevice, ""EPset_Status"".""Status"" = ""NEW"""
+35,1.3.4,Sockets and outlets,,No,,,,,,Count,"IfcOutlet, ""EPset_Status"".""Status"" = ""NEW"""
+36,1.3.5,Light points,,No,,,,,,Count,"IfcLightFixture, ""EPset_Status"".""Status"" = ""NEW"""
+37,1.3.6,Exhaust fan,,No,,,,,,Count,"IfcFan, ""EPset_Status"".""Status"" = ""NEW"""
+38,1.3.7,MCB,,No,,,,,,Count,"IfcElectricDistributionBoard, ""EPset_Status"".""Status"" = ""NEW"""
+39,1.4,Ceiling Works,,,,,,,,,
+40,1.4.1,Ceiling framing,,m,,,,,,Length,"IfcMember, ""EPset_Status"".""Status"" = ""NEW"""
+41,1.4.2,Ceiling boards,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CEILING"""
+42,1.4.3,Access panels,,No,,,,,,Count,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CEILING"""
+43,1.5,Kitchen and Sanitary Installations,,,,,,,,,
+44,1.5.1,Kitchen sink,,No,,,,,,Count,"IfcSanitaryTerminal, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""SINK"""
+45,1.5.2,Kitchen faucet,,No,,,,,,Count,"IfcValve, ""EPset_Status"".""Status"" = ""NEW"""
+46,1.5.3,Water closet,,No,,,,,,Count,"IfcSanitaryTerminal, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""TOILETPAN"""
+47,1.5.4,Wash basin,,No,,,,,,Count,"IfcSanitaryTerminal, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""WASHHANDBASIN"""
+48,1.5.5,Shower mixer,,No,,,,,,Count,"IfcValve, ""EPset_Status"".""Status"" = ""NEW"""
+49,1.5.6,Mirror and accessories,,No,,,,,,Count,"IfcFurnishingElement, ""EPset_Status"".""Status"" = ""NEW"""
+50,1.5.7,Kitchen hood,,No,,,,,,Count,"IfcElectricAppliance, ""EPset_Status"".""Status"" = ""NEW"""
+51,1.6,Painting,,,,,,,,,
+52,1.6.1,Wall putty,,m2,,,,,,NetArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+53,1.6.2,Wall primer,,m2,,,,,,NetArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+54,1.6.3,Wall paint,,m2,,,,,,NetArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+55,1.6.4,Ceiling paint,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CEILING"""
+56,1.6.5,Enamel on wood and metal,,m2,,,,,,NetArea,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
+57,1.7,Cabinet Works,,,,,,,,,
+58,1.7.1,Base Frame using WPC,,No,,,,,,Count,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
+59,1.7.2,Tandom Boxes using WPC,,No,,,,,,Count,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
+60,1.7.3,Countertop,,m2,,,,,,NetArea,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
+61,1.7.4,Vanity cabinet,,No,,,,,,Count,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
+62,1.7.5,Cabinet hardware,,No,,,,,,Count,"IfcDiscreteAccessory, ""EPset_Status"".""Status"" = ""NEW"""
