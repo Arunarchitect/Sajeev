@@ -17,8 +17,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 17,1.1.2.5,Waterproofing wet areas,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""MEMBRANE"""
 18,1.1.3,Floor and Wall Tiling,,,,,,,,,
 19,1.1.3.1,Floor screed,,m2,,,,,,NetArea,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""FLOOR"""
-20,1.1.3.2,Floor tiling,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""FLOORING"""
-21,1.1.3.3,Wall tiling toilet,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CLADDING"""
+20,1.1.3.2,Floor tiling,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_wall_tile"""
+21,1.1.3.3,Wall tiling toilet,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_floor_tile"""
 22,1.1.3.4,Wall tiling kitchen,,m2,,,,,,NetArea,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""CLADDING"""
 23,1.1.3.5,Skirting,,m,,,,,,Length,"IfcCovering, ""EPset_Status"".""Status"" = ""NEW"", ""PredefinedType"" = ""SKIRTINGBOARD"""
 25,1.2,Plumbing,,,,,,,,,
@@ -59,3 +59,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 60,1.7.3,Countertop,,m2,,,,,,NetArea,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
 61,1.7.4,Vanity cabinet,,No,,,,,,Count,"IfcFurniture, ""EPset_Status"".""Status"" = ""NEW"""
 62,1.7.5,Cabinet hardware,,No,,,,,,Count,"IfcDiscreteAccessory, ""EPset_Status"".""Status"" = ""NEW"""
+,1.7,"Doors, Windows and Ventilations",,,,,,,,,
+,1.7.1,Doors ,,No,,,,,,count,"IfcDoor, type=""80_cm_Door_RS"""
+,1.7.2,Window,,No,,,,,,count,"IfcWindow, type=""1.5x1.17"""
+,1.7.3,Ventilations,,m2,,,,,,count,"IfcWindow, type=""VENT"""
