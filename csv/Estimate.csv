@@ -1,65 +1,74 @@
 Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query,RateSchedule,RateID
-1,1,Building Estimate,,,,,,,,,,,
-2,1.1,Civil Work,,,,,,,,,,,
-3,1.1.1,Demolition,,,,,,,,,,,
-4,1.1.1.1,Remove existing toilet/kitchen walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""EXISTING"", ""EPset_Status"".""Status"" = ""DEMOLISH""",,
-4,1.1.1.2,Remove existing floor finishes,,m2,,,,,,NetArea,,,
-4,1.1.1.3,Remove existing wall finishes,,lumsum,,5000,,,5000,,,,
-4,1.1.1.5,Remove existing sanitary fixtures,,lumsum,,5000,,,5000,,,,
-4,1.1.1.6,Remove existing kitchen cabinets,,lumsum,,5000,,,5000,,,,
-4,1.1.1.7,Remove existing plumbing,,lumsum,,5000,,,5000,,,,
-4,1.1.1.8,Remove existing electrical,,lumsum,,5000,,,5000,,,,
-4,1.1.1.8,"Keeping Existing Wall, Doors and Windows",,No,,0,,,,count,"0_9FOGtwX17PyYZwIxgoa2,1oeNznDlH3WOmvvZEBgSaJ,1yoJCVWjT77Aix8y1thYwJ,1v_G_C3Er1AwlWJo76RaWX,3_Vg6Sh7r7RuWgHjzjaTbi,0z6dVjh3nA29Ogj4QLGp8M,3s2r10u_f4NfGHMgqTG7KP,02Zic7Vmr0u8YtgRoOamie,3mwdgLD6n0mubTPvqEZp7z,1j2Q54u093B8d0bVTG$NOI,3BC4n_SzX6qeaGPmVXIAfx,1CFmHHjbzASAijkOVztaLU,3062bhZbT3xPSvEJu6SP2W,0wBysgiAT78g2jJ_EY2BKG,0Ym3PZhIP2QfU_dXyWKsAH,2jiLf8oiPEufIBJhdplUWB,1uM4hduTLFyApqHUD4b8hy,1hE9SzFvz6vvwA4XF9Kn2v,1x8t67YibBKQsZz821LNSp,0ZSjpvzjX9ofXT$U8xVNPx,333owhDt50seBMIXJn2nyy,260FokwCf3RfmzqTcrD7oW,0LOM4QRmP019nPmDHh0RwG,2ls49DV2j12g85533LqDWm,17j_2IEJf4hPewPIfHI5KK,3h6xPUtE1E6x6Cb4SDwHk6",,
-3,1.1.2,Wall Construction,,,,,,,,,,,
-4,1.1.2.1,New brick/block walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",,
-4,1.1.2.2,Lintel RCC,,m3,,,,,,NetVolume,"IfcBeam, ""EPset_Status"".""Status"" = ""NEW""",,
-4,1.1.2.3,Plaster one side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",,
-4,1.1.2.4,Plaster other side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",,
-4,1.1.2.5,Waterproofing wet areas,,m2,,15000,,,,NetArea,"IfcCovering, PredefinedType=""MEMBRANE""",,
-3,1.1.3,Floor and Wall Tiling,,,,,,,,,,,
-4,1.1.3.1,Floor screed,,m2,,,,,,NetArea,"IfcSlab, type=""Screed""",,
-4,1.1.3.2,Floor tiling,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile""",,
-4,1.1.3.3,Wall tiling toilet,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_wall_tile""",,
-4,1.1.3.4,Wall tiling kitchen,,,,,,,,,,,
-4,1.1.3.3,Floor tiling toilet,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_floor_tile""",,
-4,1.1.3.5,Skirting,,m2,,,,,,NetArea,"IfcCovering, type=""Wall_tile""",,
-2,1.2,Plumbing,,lumsum,,,,,,,,,
-3,1.2.1,Water supply piping,,,,,,,,,,,
-3,1.2.2,Drainage piping,,,,,,,,,,,
+1,1,Building Estimate,,,,,,,,,,rates,
+2,1.1,Civil Work,,,,,,,,,,rates,
+3,1.1.1,Demolition,,,,,,,,,,rates,
+4,1.1.1.5,Remove existing sanitary fixtures,,lumsum,,3000,,,3000,,,rates,
+4,1.1.1.2,Remove existing floor finishes,,m2,,,,,,NetArea,"IfcSlab, type=""Screed""",rates,DEM-02
+4,1.1.1.6,Remove existing kitchen cabinets (total area 24sq.m),,lumsum,,3000,,,3000,,,rates,
+4,1.1.1.7,Remove existing plumbing (total area 24sq.m),,lumsum,,3000,,,3000,,,rates,DEM-10
+4,1.1.1.8,Remove existing electrical (total area 24sq.m),,lumsum,,3000,,,3000,,,rates,DEM-11
+4,1.1.1.1,Remove existing toilet/kitchen walls and finishes,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""EXISTING"", ""EPset_Status"".""Status"" = ""DEMOLISH""",rates,DEM-01
+4,1.1.1.8,"Maintain Existing Wall, Doors and Windows",,No,,0,,,,count,"0_9FOGtwX17PyYZwIxgoa2,1oeNznDlH3WOmvvZEBgSaJ,1yoJCVWjT77Aix8y1thYwJ,1v_G_C3Er1AwlWJo76RaWX,3_Vg6Sh7r7RuWgHjzjaTbi,0z6dVjh3nA29Ogj4QLGp8M,3s2r10u_f4NfGHMgqTG7KP,02Zic7Vmr0u8YtgRoOamie,3mwdgLD6n0mubTPvqEZp7z,1j2Q54u093B8d0bVTG$NOI,3BC4n_SzX6qeaGPmVXIAfx,1CFmHHjbzASAijkOVztaLU,3062bhZbT3xPSvEJu6SP2W,0wBysgiAT78g2jJ_EY2BKG,0Ym3PZhIP2QfU_dXyWKsAH,2jiLf8oiPEufIBJhdplUWB,1uM4hduTLFyApqHUD4b8hy,1hE9SzFvz6vvwA4XF9Kn2v,1x8t67YibBKQsZz821LNSp,0ZSjpvzjX9ofXT$U8xVNPx,333owhDt50seBMIXJn2nyy,260FokwCf3RfmzqTcrD7oW,0LOM4QRmP019nPmDHh0RwG,2ls49DV2j12g85533LqDWm,17j_2IEJf4hPewPIfHI5KK,3h6xPUtE1E6x6Cb4SDwHk6",,
+3,1.1.2,Wall Construction,,,,,,,,,,rates,WAL-01
+4,1.1.2.1,New brick/block walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",rates,WAL-02
+4,1.1.2.2,Lintel RCC,,m3,,,,,,NetVolume,"IfcBeam, ""EPset_Status"".""Status"" = ""NEW""",rates,WAL-04
+4,1.1.2.3,Plaster one side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",rates,WAL-05
+4,1.1.2.4,Plaster other side,,m2,,,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",rates,WAL-06
+4,1.1.2.5,Waterproofing wet areas,,m2,,15000,,,,NetArea,"IfcCovering, PredefinedType=""MEMBRANE""",rates,WAL-07
+3,1.1.3,Floor and Wall Tiling,,,,,,,,,,rates,
+4,1.1.3.1,Floor screed,,m2,,,,,,NetArea,"IfcSlab, type=""Screed""",rates,
+4,1.1.3.2,Floor tiling,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile""",rates,TIL-02
+4,1.1.3.3,Wall tiling toilet,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_wall_tile""",rates,TIL-04
+4,1.1.3.4,Wall tiling kitchen,,m2,,,,,,NetArea,"IfcCovering, type=""Kitchen_wall_tile""",rates,TIL-05
+4,1.1.3.3,Floor tiling toilet,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_floor_tile""",rates,TIL-03
+4,1.1.3.5,Skirting,,m2,,,,,,NetArea,"IfcCovering, type=""Wall_tile""",rates,TIL-06
+2,1.2,"MEP (Mechanical , Electrical and Plumbing) Works",,,,,,,,,,,
+3,1.2.1,"Electrical Conduits, Wiring, Switches etc",,lumsum,,15000,,,,,,,
+3,1.2.2,"Plumbing Conduits Piping, Valves etc",,lumsum,,15000,,,,,,,
 3,1.2.3,Pipe fittings,,,,,,,,,,,
 3,1.2.4,Valves and accessories,,,,,,,,,,,
 3,1.2.5,Floor drains,,,,,,,,,,,
 2,1.3,Electrical,,,,,,,,,,,
-3,1.3.1,Conduit,,,,,,,,,,,
-3,1.3.2,Wiring,,,,,,,,,,,
-3,1.3.3,Switches,,,,,,,,,,,
-3,1.3.4,Sockets and outlets,,,,,,,,,,,
-3,1.3.5,Light points,,,,,,,,,,,
-3,1.3.6,Exhaust fan,,,,,,,,,,,
-3,1.3.7,MCB,,,,,,,,,,,
-2,1.4,Ceiling Works,,,,,,,,,,,
-3,1.4.1,False Ceiling,,m2,,,,,,NetArea,"IfcCovering, type=""False Ceiling""",,
-2,1.5,Kitchen and Sanitary Installations,,,,,,,,,,,
-3,1.5.1,Kitchen sink (Double bowl Franke Sink),,No,,15000,,,,count,"IfcSanitaryTerminal, type=""FRANKE_2BOWL_SINK_1.2x.46x.21""",,
-3,1.5.2,Kitchen faucet (with mixer),,,,,,,,,,,
-3,1.5.3,Water closet,,,,,,,,,,,
-3,1.5.4,Wash basin,,,,,,,,,,,
-3,1.5.5,Shower mixer,,,,,,,,,,,
-3,1.5.6,Mirror and accessories,,,,,,,,,,,
-3,1.5.7,Kitchen hood,,,,,,,,,,,
-2,1.6,Painting,,,,,,,,,,,
-3,1.6.1,Wall putty,,,,,,,,,,,
-3,1.6.2,Wall primer,,,,,,,,,,,
-3,1.6.3,Wall paint,,,,,,,,,,,
-3,1.6.4,Ceiling paint,,,,,,,,,,,
-3,1.6.5,Enamel on wood and metal,,,,,,,,,,,
+3,1.3.5,Light points,,,,,,,,,,,ELE-07
+3,1.3.6,Exhaust fan,,,,,,,,,,,ELE-10
+3,1.3.7,Ceiling Fan,,No,,,,,,count,"IfcElectricAppliance, type=""BLDC_CFAN""",rates,
+,,Refrigerator,,,,,,,,,,rates,
+2,1.4,Ceiling Works,,,,,,,,,,rates,
+3,1.4.1,False Ceiling,,m2,,,,,,NetArea,"IfcCovering, type=""False Ceiling""",rates,CEI-01
+3,1.4.2,False Ceiling (Moisture Resistant),,m2,,,,,,NetArea,"IfcCovering, type=""MR_false_ceiling""",rates,CEI-02
 2,1.7,Cabinet Works,,,,,,,,,,,
-3,1.7.1,Base Frame using WPC,,,,,,,,,,,
-3,1.7.2,Tandom Boxes using WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""12mm frontface""",rates,S
-3,1.7.3,Countertop,,,,,,,,,"IfcCovering, type=""12mm SolidSurfaceTop""",,
+3,1.7.1,Base Frame and Tandom Boxes using 18mm WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""Multiwood 12mm horizontal"" + IfcSystemFurnitureElement, type=""Multiwood 12mm""",rates,WPC-1
+3,1.7.2,Frontface shutters using 12mm WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""12mm frontface""",rates,WPC-2
+3,1.7.4,Frontface mica Laminate ,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""12mm frontface""",rates,LAM-1
+3,1.7.5,Laminate pressing charges,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""12mm frontface""",rates,LAMF-1
+3,1.7.3,Countertop using staturio tiles,,m2,,,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop""",rates,TIL-1
 3,1.7.4,Vanity cabinet,,,,,,,,,,,
 3,1.7.5,Cabinet hardware,,,,,,,,,,,
+2,1.6,Painting,,,,,,,,,,,
+3,1.6.1,Wall putty,,,,,,,,,,,PNT-01
+3,1.6.2,Wall primer,,,,,,,,,,,PNT-02
+3,1.6.3,Wall paint,,,,,,,,,,,PNT-03
+3,1.6.4,Ceiling paint,,,,,,,,,,,PNT-04
+3,1.6.5,Enamel on wood and metal,,,,,,,,,,,PNT-05
 2,1.8,"Doors, Windows and Ventilations",,,,,,,,,,,
-3,1.8.1,Doors,,No,,,,,,count,"IfcDoor, type=""80_cm_Door_RS""",,
-3,1.8.2,Window,,No,,,,,,count,"IfcWindow, type=""1.5x1.17""",,
-3,1.8.3,Ventilations,,No,,,,,,count,"IfcWindow, type=""VENT""",,
+3,1.8.1,Doors,,No,,,,,,count,"IfcDoor, type=""80_cm_Door_RS""",rates,DWV-01
+3,1.8.2,Window,,No,,,,,,count,"IfcWindow, type=""1.5x1.17""",,DWV-03
+3,1.8.3,Window 90 cm,,No,,,,,,count,"Ifcwindow, type=""90cm Window""",,
+3,1.8.4,Ventilations,,No,,,,,,count,"IfcWindow, type=""VENT""",,DWV-04
+3,1.8.5,Multiwood 12 mm panel,,No,,,,,,count,"IfcSystemFurnitureElement, type=""Multiwood 12mm""",,CAB-04
+3,1.8.6,Multiwood 12 mm Worksurface,,No,,,,,,count,"IfcSystemFurnitureElement, type=""12mm frontface""",,
+3,1.8.6,Multiwood 12 mm Worksurface,,No,,,,,,count,"IfcSystemFurnitureElement, type=""12mm frontface""",,
+2,1.5,Kitchen and Sanitary Installations,,,,,,,,,,rates,
+,1.5.1,Orga tray,,,,,,,,,,rates,HOW-01
+3,1.5.2,Kitchen sink (Double bowl Franke Sink),,No,,15000,,,,count,"IfcSanitaryTerminal, type=""FRANKE_2BOWL_SINK_1.2x.46x.21""",rates,UDB-01
+3,1.5.3,Kitchen sink (Single bowl Kohler Sink),,No,,,,,,count,"IfcSanitaryTerminal, type=""KOHLER""",rates,UNID-1A5122
+3,1.5.4,Kitchen faucet (with mixer),,No,,,,,,count,"IfcsanitaryTerminal, type=""SINKTAP MIXER""",rates,UNID-1D9077
+3,1.5.5,Water closet,,No,,,,,,count,"IfcsanitaryTerminal, type=""WC Wall hung""",rates,UNID-382404
+3,1.5.6,Wash basin,,No,,,,,,count,"IfcsanitaryTerminal, type=""Washbasin_countertop""",rates,UNID-817DFC
+3,1.5.7,Shower,,No,,,,,,count,"IfcsanitaryTerminal, type=""Grohe shower""",rates,UNID-AB08C2
+3,1.5.8,Shower mixer,,No,,,,,,count,"IfcsanitaryTerminal, type=""Grohe Shower mixer""",rates,UNID-61A570
+3,1.5.9,Mirror and accessories,,,,,,,,,,,
+3,1.5.10,Kitchen hood,,No,,,,,,count,"IfcElectricAppliance, type=""Chimney_90cm""",rates,SAN-12
+3,1.5.11,Kitchen hob,,No,,,,,,count,"IfcElectricAppliance, type=""Faber Stove""",rates,UNID-8412B5
+3,1.5.12,Refrigerator,,No,,,,,,count,"IfcElectricAppliance, type=""Samsung Refrigerator""",rates,
+3,1.5.13,Cistern full frame,,No,,,,,,count,"IfcSanitaryTerminal, type=""Concealed_Cistern_Fullframe""",rates,IWT-01

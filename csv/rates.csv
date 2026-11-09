@@ -1,89 +1,101 @@
 Index,Identification,Description,Name,Quantity,Unit,Value
-1,S,Decorative laminate 1mm (supply and fix over WPC/ply face),Mica Laminate,1,m2,500
-2,DEM-01,Dismantling brick/block masonry incl. stacking and shifting debris,Dismantle brick/block wall,1,m3,1800
-3,DEM-02,"Dismantling tile flooring incl. bedding, chipping to slab",Remove floor tiles,1,m2,130
-4,DEM-03,Removal of wall tiles/dado incl. chipping to plaster,Remove wall tiles,1,m2,100
-5,DEM-04,Hacking old plaster/paint incl. cleaning,Hack plaster,1,m2,70
-6,DEM-05,"Dismantling WC/EWC, flush tank and fixing",Remove water closet,1,count,450
-7,DEM-06,Dismantling wash basin/sink with fittings,Remove wash basin/sink,1,count,300
-8,DEM-07,Removal of old kitchen cabinets/shelving,Remove kitchen cabinets,1,m,600
-9,DEM-08,Removal of old doors/windows with frames,Remove door/window with frame,1,count,650
-10,DEM-09,Loading and disposal of debris within 10 km,Debris disposal,1,m3,900
-11,DEM-10,"Removal of existing plumbing (lump sum, small toilet/kitchen)",Remove existing plumbing,1,lumsum,5000
-12,DEM-11,"Removal of existing electrical (lump sum, small toilet/kitchen)",Remove existing electrical,1,lumsum,5000
-13,WAL-01,Brick masonry in CM 1:6,Brick masonry CM 1:6,1,m3,9500
-14,WAL-02,Solid cement block masonry 100mm in CM 1:6,Solid block masonry 100mm,1,m3,8000
-15,WAL-03,Hollow cement block masonry 150mm in CM 1:6,Hollow block masonry 150mm,1,m3,7500
-16,WAL-04,RCC M20 lintel/beam incl. steel and shuttering,Lintel RCC M20,1,m3,18500
-17,WAL-05,Cement plaster 12mm CM 1:4 on walls,Plaster 12mm CM 1:4,1,m2,330
-18,WAL-06,Cement plaster 6mm CM 1:3 for ceiling/sunk areas,Plaster 6mm ceiling,1,m2,380
-19,WAL-07,Cementitious 2-coat waterproofing with return up walls 300mm,Waterproofing cementitious,1,m2,350
-20,WAL-08,Polymer-modified membrane waterproofing incl. protective screed,Waterproofing membrane,1,m2,520
-21,WAL-09,Chemical anchoring/jointing of new to old masonry,Joint bonding new to old wall,1,m,150
-22,TIL-01,Cement screed 40mm avg. CM 1:4 with slope to drain,Floor screed 40mm,1,m2,350
-23,TIL-02,"Vitrified tile 600x600 floor, supply and fix with adhesive",Floor tile vitrified 600x600,1,m2,1250
-24,TIL-03,"Anti-skid ceramic tile 300x300 toilet floor, supply and fix",Toilet floor tile anti-skid,1,m2,1000
-25,TIL-04,"Glazed ceramic wall tile 300x600 toilet, supply and fix",Wall tile toilet,1,m2,1100
-26,TIL-05,"Glazed ceramic wall tile 300x600 kitchen dado, supply and fix",Wall tile kitchen,1,m2,1100
-27,TIL-06,"Tile skirting 100mm from floor tile, per sqm of tile cut",Skirting tile,1,m2,1300
-28,TIL-07,"Tile skirting 100mm, running metre",Skirting tile (running m),1,m,130
-29,TIL-08,Epoxy grout extra over cement grout,Epoxy grout extra,1,m2,180
-30,TIL-09,Granite threshold 20mm x 150mm polished,Door threshold granite,1,m,650
-31,PLB-01,"CPVC pipe 15mm (ASTM 2846) incl. fittings and fixing, concealed",CPVC 15mm,1,m,190
-32,PLB-02,"CPVC pipe 20mm incl. fittings and fixing, concealed",CPVC 20mm,1,m,240
-33,PLB-03,uPVC SWR pipe 75mm incl. fittings and fixing,uPVC SWR 75mm,1,m,330
-34,PLB-04,uPVC SWR pipe 110mm incl. fittings and fixing,uPVC SWR 110mm,1,m,430
-35,PLB-05,Pipe fittings allowance per plumbing point,Pipe fittings per point,1,count,250
-36,PLB-06,Angle cock 15mm chrome,Angle cock,1,count,450
-37,PLB-07,Stop cock/ball valve 15-20mm,Stop cock,1,count,650
-38,PLB-08,Bib cock/long body tap chrome 15mm,Bib cock,1,count,550
-39,PLB-09,Floor drain 100mm chrome/SS with cockroach trap,Floor drain,1,count,650
-40,PLB-10,"Water supply point complete (toilet/kitchen), per point",Water supply point,1,count,1800
-41,PLB-11,"Drain/waste point complete, per point",Drainage point,1,count,1500
-42,ELE-01,PVC conduit 20mm incl. chasing and fixing,Conduit 20mm,1,m,60
-43,ELE-02,PVC conduit 25mm incl. chasing and fixing,Conduit 25mm,1,m,75
-44,ELE-03,"FR copper wire 1.5 sqmm, per metre",Wiring 1.5 sqmm,1,m,32
-45,ELE-04,"FR copper wire 2.5 sqmm, per metre",Wiring 2.5 sqmm,1,m,48
-46,ELE-05,"Modular switch 6A with plate and box, supply and fix",Switch 6A,1,count,250
-47,ELE-06,"Modular 6/16A socket with switch, plate and box",Socket 6/16A,1,count,480
-48,ELE-07,"Light point wiring, concealed, up to 6m",Light point wiring,1,count,900
-49,ELE-08,"Power point wiring 2.5 sqmm, concealed, up to 6m",Power point wiring,1,count,1250
-50,ELE-09,"LED downlight 12W, supply and fix",LED downlight 12W,1,count,650
-51,ELE-10,"Exhaust fan 150mm, supply and fix",Exhaust fan 150mm,1,count,2400
-52,ELE-11,"MCB 16A SP, supply and fix",MCB 16A SP,1,count,420
-53,ELE-12,"RCCB 40A 30mA 2P, supply and fix",RCCB 40A,1,count,2400
-54,ELE-13,"MCB distribution board 4-way, supply and fix",DB 4-way,1,count,3200
-55,ELE-14,Geyser point with 16A switch and wiring,Geyser point,1,count,1600
-56,CEI-01,"Gypsum board false ceiling 12.5mm on GI grid, plain",False ceiling gypsum,1,m2,1050
-57,CEI-02,Moisture-resistant board false ceiling on GI grid,False ceiling MR board,1,m2,1250
-58,CEI-03,PVC panel false ceiling for toilet,False ceiling PVC panel,1,m2,750
-59,SAN-01,"Double bowl sink Franke 1.2m with drainboard, supply and fix",Kitchen sink double bowl Franke,1,count,15000
-60,SAN-02,"Double bowl SS sink 1.2m standard, supply and fix",Kitchen sink double bowl SS,1,count,8500
-61,SAN-03,"Sink mixer swan neck, chrome, supply and fix",Kitchen faucet mixer,1,count,4800
-62,SAN-04,"EWC floor mounted with PVC cistern, supply and fix",Water closet EWC,1,count,9500
-63,SAN-05,"Wall-hung WC with concealed cistern, supply and fix",Water closet wall hung,1,count,19000
-64,SAN-06,"Counter-top wash basin with tap, supply and fix",Wash basin counter top,1,count,6500
-65,SAN-07,"Wall-hung wash basin with tap, supply and fix",Wash basin wall hung,1,count,4200
-66,SAN-08,Shower mixer with diverter and overhead shower,Shower mixer set,1,count,9500
-67,SAN-09,Health faucet with hose and holder,Health faucet,1,count,1200
-68,SAN-10,Mirror 600x450 with fixing,Mirror,1,count,2800
-69,SAN-11,"Bath accessories set (towel rail, soap dish, paper holder, hooks)",Bath accessories set,1,count,3200
-70,SAN-12,"Kitchen chimney 60cm, supply and fix incl. ducting",Kitchen hood,1,count,14500
-71,PNT-01,Wall putty 2 coats,Wall putty,1,m2,110
-72,PNT-02,Wall primer 1 coat,Wall primer,1,m2,55
-73,PNT-03,Acrylic emulsion 2 coats,Wall paint emulsion,1,m2,115
-74,PNT-04,Ceiling paint 2 coats incl. putty touch-up,Ceiling paint,1,m2,105
-75,PNT-05,Synthetic enamel 2 coats on wood/metal incl. primer,Enamel on wood and metal,1,m2,190
-76,CAB-01,"WPC 18mm carcass/base frame, supply and fabricate",Base frame WPC,1,m2,2200
-77,CAB-02,"WPC 12mm front face/shutter, excl. laminate and hardware",Tandem box front face WPC 12mm,1,m2,2400
-78,CAB-03,"Soft-close tandem box drawer system, supply and fix",Tandem box drawer hardware,1,count,3200
-79,CAB-04,Solid surface 12mm countertop incl. edge profile and cutout,Countertop solid surface,1,m2,18000
-80,CAB-05,Granite 20mm countertop incl. edge polish and cutout,Countertop granite,1,m2,3400
-81,CAB-06,"Vanity cabinet 600mm WPC with laminate finish, excl. basin",Vanity cabinet,1,count,9500
-82,CAB-07,"Soft-close hinge, supply and fix",Cabinet hinge,1,count,190
-83,CAB-08,"Cabinet handle/profile, supply and fix",Cabinet handle,1,count,260
-84,DWV-01,WPC/PVC toilet door 80x210cm with frame and hardware,Door 80cm toilet WPC,1,count,9500
-85,DWV-02,Flush door 35mm veneer/laminate 80x210cm with frame and hardware,Door 80cm flush,1,count,17000
-86,DWV-03,"Aluminium 2-track sliding window 1.5x1.17m, glazed with mesh",Window 1.5x1.17 aluminium,1,count,9800
-87,DWV-04,Aluminium louvered ventilator 600x450mm,Ventilator louver,1,count,2400
-88,DWV-05,"Aluminium/UPVC window per sqm, glazed",Window aluminium per m2,1,m2,5600
+1,DEM-01,Dismantling/demolition brick/block masonry incl. stacking and shifting debris,Dismantle brick/block wall,1,m3,1800
+1,DEM-02,"Dismantling tile flooring incl. bedding, chipping to slab",Remove floor tiles,1,m2,130
+1,DEM-03,Removal of wall tiles/dado incl. chipping to plaster,Remove wall tiles,1,m2,100
+1,DEM-04,Hacking old plaster/paint incl. cleaning,Hack plaster,1,m2,70
+1,DEM-08,Removal of old doors/windows with frames,Remove door/window with frame,1,count,650
+1,DEM-09,Loading and disposal of debris within 10 km,Debris disposal,1,m3,900
+1,DEM-10,"Removal of existing plumbing (lump sum, small toilet/kitchen)",Remove existing plumbing,1,lumsum,5000
+1,DEM-11,"Removal of existing electrical (lump sum, small toilet/kitchen)",Remove existing electrical,1,lumsum,5000
+1,WAL-01,Brick masonry in CM 1:6,Brick masonry CM 1:6,1,m3,9500
+1,WAL-02,Solid cement block masonry 100mm in CM 1:6,Solid block masonry 100mm,1,m3,8000
+1,WAL-03,Hollow cement block masonry 150mm in CM 1:6,Hollow block masonry 150mm,1,m3,7500
+1,WAL-04,RCC M20 lintel/beam incl. steel and shuttering,Lintel RCC M20,1,m3,18500
+1,WAL-05,Cement plaster 12mm CM 1:4 on walls,Plaster 12mm CM 1:4,1,m2,330
+1,WAL-06,Cement plaster 6mm CM 1:3 for ceiling/sunk areas,Plaster 6mm ceiling,1,m2,380
+1,WAL-07,Cementitious 2-coat waterproofing with return up walls 300mm,Waterproofing cementitious,1,m2,350
+1,WAL-08,Polymer-modified membrane waterproofing incl. protective screed,Waterproofing membrane,1,m2,520
+1,WAL-09,Chemical anchoring/jointing of new to old masonry,Joint bonding new to old wall,1,m,150
+1,TIL-01,Cement screed 40mm avg. CM 1:4 with slope to drain,Floor screed 40mm,1,m2,350
+1,TIL-02,"Vitrified tile 600x600 floor, supply and fix with adhesive",Floor tile vitrified 600x600,1,m2,1250
+1,TIL-03,"Anti-skid ceramic tile 300x300 toilet floor, supply and fix",Toilet floor tile anti-skid,1,m2,1000
+1,TIL-04,"Glazed ceramic wall tile 300x600 toilet, supply and fix",Wall tile toilet,1,m2,1100
+1,TIL-05,"Glazed ceramic wall tile 300x600 kitchen dado, supply and fix",Wall tile kitchen,1,m2,1100
+1,TIL-06,"Tile skirting 100mm from floor tile, per sqm of tile cut",Skirting tile,1,m2,1300
+1,TIL-07,"Tile skirting 100mm, running metre",Skirting tile (running m),1,m,130
+1,TIL-08,Epoxy grout extra over cement grout,Epoxy grout extra,1,m2,180
+1,TIL-09,Granite threshold 20mm x 150mm polished,Door threshold granite,1,m,650
+1,PLB-01,"CPVC pipe 15mm (ASTM 2846) incl. fittings and fixing, concealed",CPVC 15mm,1,m,190
+1,PLB-02,"CPVC pipe 20mm incl. fittings and fixing, concealed",CPVC 20mm,1,m,240
+1,PLB-03,uPVC SWR pipe 75mm incl. fittings and fixing,uPVC SWR 75mm,1,m,330
+1,PLB-04,uPVC SWR pipe 110mm incl. fittings and fixing,uPVC SWR 110mm,1,m,430
+1,PLB-05,Pipe fittings allowance per plumbing point,Pipe fittings per point,1,count,250
+1,PLB-06,Angle cock 15mm chrome,Angle cock,1,count,450
+1,PLB-07,Stop cock/ball valve 15-20mm,Stop cock,1,count,650
+1,PLB-08,Bib cock/long body tap chrome 15mm,Bib cock,1,count,550
+1,PLB-09,Floor drain 100mm chrome/SS with cockroach trap,Floor drain,1,count,650
+1,PLB-10,"Water supply point complete (toilet/kitchen), per point",Water supply point,1,count,1800
+1,PLB-11,"Drain/waste point complete, per point",Drainage point,1,count,1500
+1,ELE-01,PVC conduit 20mm incl. chasing and fixing,Conduit 20mm,1,m,60
+1,ELE-02,PVC conduit 25mm incl. chasing and fixing,Conduit 25mm,1,m,75
+1,ELE-03,"FR copper wire 1.5 sqmm, per metre",Wiring 1.5 sqmm,1,m,32
+1,ELE-04,"FR copper wire 2.5 sqmm, per metre",Wiring 2.5 sqmm,1,m,48
+1,ELE-05,"Modular switch 6A with plate and box, supply and fix",Switch 6A,1,count,250
+1,ELE-06,"Modular 6/16A socket with switch, plate and box",Socket 6/16A,1,count,480
+1,ELE-07,"Light point wiring, concealed, up to 6m",Light point wiring,1,count,900
+1,ELE-08,"Power point wiring 2.5 sqmm, concealed, up to 6m",Power point wiring,1,count,1250
+1,ELE-09,"LED downlight 12W, supply and fix",LED downlight 12W,1,count,650
+1,ELE-10,"Exhaust fan 150mm, supply and fix",Exhaust fan 150mm,1,count,2400
+1,ELE-11,"MCB 16A SP, supply and fix",MCB 16A SP,1,count,420
+1,ELE-12,"RCCB 40A 30mA 2P, supply and fix",RCCB 40A,1,count,2400
+1,ELE-13,"MCB distribution board 4-way, supply and fix",DB 4-way,1,count,3200
+1,ELE-14,Geyser point with 16A switch and wiring,Geyser point,1,count,1600
+1,CEI-01,"Gypsum board false ceiling 12.5mm on GI grid, plain",False ceiling gypsum,1,m2,1050
+1,CEI-02,Moisture-resistant board false ceiling on GI grid,False ceiling MR board,1,m2,1250
+1,CEI-03,PVC panel false ceiling for toilet,False ceiling PVC panel,1,m2,750
+1,SAN-01,"Double bowl sink Franke 1.2m with drainboard, supply and fix",Kitchen sink double bowl Franke,1,count,15000
+1,SAN-02,"Double bowl SS sink 1.2m standard, supply and fix",Kitchen sink double bowl SS,1,count,8500
+1,SAN-03,"Sink mixer swan neck, chrome, supply and fix",Kitchen faucet mixer,1,count,4800
+1,SAN-04,"EWC floor mounted with PVC cistern, supply and fix",Water closet EWC,1,count,9500
+1,SAN-05,"Kohler Wall-hung WC with concealed cistern, supply and fix",Water closet wall hung,1,count,5949
+1,SAN-06,"Counter-top wash basin with tap, supply and fix",Wash basin counter top,1,count,6500
+1,SAN-07,"Wall-hung wash basin with tap, supply and fix",Wash basin wall hung,1,count,5949
+1,SAN-08,Shower mixer with diverter and overhead shower,Shower mixer set,1,count,9500
+1,SAN-09,Health faucet with hose and holder,Health faucet,1,count,1200
+1,SAN-10,Mirror 600x450 with fixing,Mirror,1,count,2800
+1,SAN-11,"Bath accessories set (towel rail, soap dish, paper holder, hooks)",Bath accessories set,1,count,3200
+1,SAN-12,"Kitchen chimney 60cm, supply and fix incl. ducting",Kitchen hood,1,count,14500
+1,PNT-01,Wall putty 2 coats,Wall putty,1,m2,110
+1,PNT-02,Wall primer 1 coat,Wall primer,1,m2,55
+1,PNT-03,Acrylic emulsion 2 coats,Wall paint emulsion,1,m2,115
+1,PNT-04,Ceiling paint 2 coats incl. putty touch-up,Ceiling paint,1,m2,105
+1,PNT-05,Synthetic enamel 2 coats on wood/metal incl. primer,Enamel on wood and metal,1,m2,190
+1,WPC-1,WPC 18mm ,Base frame / carcass / tandom box etc,1,m2,2200
+1,WPC-2,WPC 12mm ,"front face/shutter, excl. laminate and hardware",1,m2,2400
+1,LAM-1,Decorative laminate 1mm ,Mica Laminate,1,m2,1500
+1,LAMF-1,Laminate pressing charges,Using machine pressing,1,m2,10
+1,CAB-03,"Soft-close tandem box drawer system, supply and fix",Tandem box drawer hardware,1,count,3200
+1,CAB-04,Solid surface 12mm countertop incl. edge profile and cutout,Countertop solid surface,1,m2,18000
+1,TIL-1,Tile 20mm countertop,Countertop Tiles,1,m2,1500
+1,CAB-06,"Vanity cabinet 600mm WPC with laminate finish, excl. basin",Vanity cabinet,1,count,9500
+1,CAB-07,"Soft-close hinge, supply and fix",Cabinet hinge,1,count,190
+1,CAB-08,"Cabinet handle/profile, supply and fix",Cabinet handle,1,count,260
+1,DWV-01,WPC/PVC toilet door 80x210cm with frame and hardware,Door 80cm toilet WPC,1,count,9500
+1,DWV-02,Flush door 35mm veneer/laminate 80x210cm with frame and hardware,Door 80cm flush,1,count,17000
+1,DWV-03,"Aluminium 2-track sliding window 1.5x1.17m, glazed with mesh",Window 1.5x1.17 aluminium,1,count,9800
+1,DWV-04,Aluminium louvered ventilator 600x450mm,Ventilator louver,1,count,2400
+1,DWV-05,"Aluminium/UPVC window per sqm, glazed",Window aluminium per m2,1,m2,5600
+1,UNID-0A548C,"SINK - GLOXY SS 304 GRADE 24""x18""x10""",SINK,1,count,1803
+1,UNID-1A5122,Rectangular wall-mount bathroom sink - KOHLER K-25317IN-0,Rectangular wall-mount bathroom sink,1,count,5949
+1,HOW-01,"Hettich OrgaTray Width 701-800mm, Depth 441-520 mm,55mm - Hettich 9194939","Hettich OrgaTray Width 701-800mm, Depth 441-520 mm,55mm",1,count,1975
+1,IWT-01,In-wall tank with frame - kohler K-33931IN-P-0,In-wall tank with frame,1,count,11889
+1,UDB-01,Undermount double-bowl kitchen sink - Kohler K-38803IN-NA,Undermount double-bowl kitchen sink,1,count,25899
+1,UNID-1A5122,Rectangular wall-mount bathroom sink - KOHLER K-25317IN-0,Rectangular wall-mount bathroom sink,1,count,5949
+1,UNID-2EF6EE,SQUARE FLOOR DRAIN - i SATAR 304 GRADE,SQUARE FLOOR DRAIN,1,count,657
+1,UNID-9D1FE1,RECTANGLE FLOOLR TRAP - PLANTEX LONG SHOWER DRAIN,RECTANGLE FLOOLR TRAP,1,count,2179
+1,UNID-61A570,SHOWER MIXER - JAQUAR Thermostatic - ORP-CHR-10683NKPM,SHOWER MIXER,1,count,5800
+1,UNID-817DFC,Wash basin - PLANTEX Premium Ceramic Basin,Wash basin,1,count,1769
+1,UNID-382404,WATER CLOSET - JAQUAR Rimless Bowl with cistern-VGS-WHT-81753P180UFSMZ.,WATER CLOSET,1,count,24500
+1,HOW-01,"Hettich OrgaTray Width 701-800mm, Depth 441-520 mm,55mm - Hettich 9194939","Hettich OrgaTray Width 701-800mm, Depth 441-520 mm,55mm",1,count,1975
+1,IWT-01,In-wall tank with frame - kohler K-33931IN-P-0,In-wall tank with frame,1,count,11889
+1,UDB-01,Undermount double-bowl kitchen sink - Kohler K-38803IN-NA,Undermount double-bowl kitchen sink,1,count,25899
