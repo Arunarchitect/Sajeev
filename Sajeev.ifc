@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition[DesignTransferView]'),'2;1');
-FILE_NAME('Sajeev.ifc','2026-11-11T17:50:35+05:30',(''),(''),'IfcOpenShell 0.9.0.post1','Bonsai 0.9.0-post1','Nobody');
+FILE_NAME('Sajeev.ifc','2026-11-11T18:52:14+05:30',(''),(''),'IfcOpenShell 0.9.0.post1','Bonsai 0.9.0-post1','Nobody');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 DATA;
@@ -39676,5 +39676,9 @@ DATA;
 #79688=IFCRELASSIGNSTOCONTROL('2Av5rewjDANev3D_c4sl6O',$,$,$,(#79687),$,#79249);
 #79689=IFCRELASSIGNSTOCONTROL('00CZlkzs9Div3x3QJMfUO0',$,$,$,(#19784,#20036),$,#79687);
 #79690=IFCQUANTITYCOUNT('Unnamed',$,$,2,$);
+#79691=IFCDOCUMENTINFORMATION('X','InteriorView',$,$,$,$,'REFERENCE',$,$,$,$,$,$,$,$,$,$);
+#79692=IFCRELASSOCIATESDOCUMENT('1E_V5E0719YAfVECK2WIkP',$,$,$,(#1),#79691);
+#79693=IFCDOCUMENTREFERENCE('references/InteriorView.svg','X',$,$,#79691);
+#79694=IFCDOCUMENTREFERENCE('references/InteriorView.svg','6',$,'REFERENCE',#21578);
 ENDSEC;
 END-ISO-10303-21;
