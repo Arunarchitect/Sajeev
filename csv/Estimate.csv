@@ -3,10 +3,9 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 2,1.1,Civil Work,,,,,,,,,,,
 3,1.1.1,Demolition,,,,,,,,,,,
 4,1.1.1.1,Remove existing sanitary fixtures/plumbing conduits,,lumsum,,4000,,,4000,,,,
-4,1.1.1.4,Remove existing plumbing (total area 24sq.m),,lumsum,,3000,,,3000,,,,
-4,1.1.1.5,Remove existing electrical (total area 24sq.m),,lumsum,,2000,,,2000,,,,
-4,1.1.1.6,Remove existing toilet/kitchen walls and floor finishes and debris removal.,,lumsum,,30000,,,30000,,,,
-4,1.1.1.7,"Maintain Existing Wall, Doors and Windows",,No,,0,,,,count,"0_9FOGtwX17PyYZwIxgoa2,1oeNznDlH3WOmvvZEBgSaJ,1yoJCVWjT77Aix8y1thYwJ,1v_G_C3Er1AwlWJo76RaWX,3_Vg6Sh7r7RuWgHjzjaTbi,0z6dVjh3nA29Ogj4QLGp8M,3s2r10u_f4NfGHMgqTG7KP,02Zic7Vmr0u8YtgRoOamie,3mwdgLD6n0mubTPvqEZp7z,1j2Q54u093B8d0bVTG$NOI,3BC4n_SzX6qeaGPmVXIAfx,1CFmHHjbzASAijkOVztaLU,3062bhZbT3xPSvEJu6SP2W,0wBysgiAT78g2jJ_EY2BKG,0Ym3PZhIP2QfU_dXyWKsAH,2jiLf8oiPEufIBJhdplUWB,1uM4hduTLFyApqHUD4b8hy,1hE9SzFvz6vvwA4XF9Kn2v,1x8t67YibBKQsZz821LNSp,0ZSjpvzjX9ofXT$U8xVNPx,333owhDt50seBMIXJn2nyy,260FokwCf3RfmzqTcrD7oW,0LOM4QRmP019nPmDHh0RwG,2ls49DV2j12g85533LqDWm,17j_2IEJf4hPewPIfHI5KK,3h6xPUtE1E6x6Cb4SDwHk6",,
+4,1.1.1.2,Remove existing electrical (total area 24sq.m),,lumsum,,2000,,,2000,,,,
+4,1.1.1.3,Remove existing toilet/kitchen walls and floor finishes and debris removal.,,lumsum,,30000,,,30000,,,,
+4,1.1.1.4,"Maintain Existing Wall, Doors and Windows",,No,,0,,,,count,"0_9FOGtwX17PyYZwIxgoa2,1oeNznDlH3WOmvvZEBgSaJ,1yoJCVWjT77Aix8y1thYwJ,1v_G_C3Er1AwlWJo76RaWX,3_Vg6Sh7r7RuWgHjzjaTbi,0z6dVjh3nA29Ogj4QLGp8M,3s2r10u_f4NfGHMgqTG7KP,02Zic7Vmr0u8YtgRoOamie,3mwdgLD6n0mubTPvqEZp7z,1j2Q54u093B8d0bVTG$NOI,3BC4n_SzX6qeaGPmVXIAfx,1CFmHHjbzASAijkOVztaLU,3062bhZbT3xPSvEJu6SP2W,0wBysgiAT78g2jJ_EY2BKG,0Ym3PZhIP2QfU_dXyWKsAH,2jiLf8oiPEufIBJhdplUWB,1uM4hduTLFyApqHUD4b8hy,1hE9SzFvz6vvwA4XF9Kn2v,1x8t67YibBKQsZz821LNSp,0ZSjpvzjX9ofXT$U8xVNPx,333owhDt50seBMIXJn2nyy,260FokwCf3RfmzqTcrD7oW,0LOM4QRmP019nPmDHh0RwG,2ls49DV2j12g85533LqDWm,17j_2IEJf4hPewPIfHI5KK,3h6xPUtE1E6x6Cb4SDwHk6",,
 3,1.1.2,Wall Construction,,,,,,,,,,,
 4,1.1.2.1,New brick/block walls,,m3,,,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW""",rates,WAL-02
 4,1.1.2.2,Lintel RCC,,m3,,,,,,NetVolume,"IfcBeam, ""EPset_Status"".""Status"" = ""NEW""",rates,LIN-1
@@ -20,8 +19,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.3.3,Wall tiling toilet material,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_wall_tile""",rates,TIL-02
 4,1.1.3.4,Wall tiling kitchen material,,m2,,,,,,NetArea,"IfcCovering, type=""Kitchen_wall_tile""",rates,TIL-02
 4,1.1.3.3,Floor tiling toilet material,,m2,,,,,,NetArea,"IfcCovering, type=""Bath_floor_tile""",rates,TIL-02
-4,1.1.3.5,Tile Adhesive and miscalleneous items,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile""+IfcCovering, type=""Wall_tile""+IfcCovering, type=""Bath_wall_tile""+IfcCovering, type=""Kitchen_wall_tile""+IfcCovering, type=""Bath_floor_tile""",rates,ADH
-4,1.1.3.5,Tile Labour,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile""+IfcCovering, type=""Wall_tile""+IfcCovering, type=""Bath_wall_tile""+IfcCovering, type=""Kitchen_wall_tile""+IfcCovering, type=""Bath_floor_tile""",rates,TL
+4,1.1.3.5,Tile Adhesive and miscalleneous items,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile"" + IfcCovering, type=""Wall_tile"" + IfcCovering, type=""Bath_wall_tile"" + IfcCovering, type=""Kitchen_wall_tile"" + IfcCovering, type=""Bath_floor_tile""",rates,ADH
+4,1.1.3.5,Tile Labour,,m2,,,,,,NetArea,"IfcCovering, type=""Floor Tile"" + IfcCovering, type=""Wall_tile"" + IfcCovering, type=""Bath_wall_tile"" + IfcCovering, type=""Kitchen_wall_tile"" + IfcCovering, type=""Bath_floor_tile""",rates,TL
 2,1.2,"MEP (Mechanical , Electrical and Plumbing) Works",,,,,,,,,,,
 3,1.2.1,"Electrical Conduits, Wiring, Switches etc",,lumsum,,28000,,,,,,,
 3,1.2.2,"Bathroom1-Plumbing Conduits Piping, Valves - labour etc",,lumsum,,35000,,,,,,,
@@ -35,8 +34,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.7.2,Laminate one side - Base Frame and Tandom Boxes using 18mm WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""Multiwood 12mm horizontal"" + IfcSystemFurnitureElement, type=""Multiwood 12mm""",rates,WPC-1
 3,1.7.3,Laminate backside side - Base Frame and Tandom Boxes using 18mm WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""Multiwood 12mm horizontal"" + IfcSystemFurnitureElement, type=""Multiwood 12mm""",rates,WPC-1
 3,1.7.4,Frontface shutters using 18mm WPC,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""18mm frontface""",rates,WPC-2
-3,1.7.5,Frontface mica Laminate ,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAM-1
-3,1.7.6,Frontface mica Laminate ,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAM-1
+3,1.7.5,Frontface mica Laminate on frontside,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAM-1
+3,1.7.6,Frontface shutter mica Laminate on backside,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAM-1
 3,1.7.7,Laminate pressing charges one side,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""Multiwood 12mm horizontal"" + IfcSystemFurnitureElement, type=""Multiwood 12mm""+IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAMF-1
 3,1.7.8,Laminate pressing charges one side,,m2,,,,,,NetSideArea,"IfcSystemFurnitureElement, type=""Multiwood 12mm horizontal"" + IfcSystemFurnitureElement, type=""Multiwood 12mm""+IfcSystemFurnitureElement, type=""18mm frontface""",rates,LAMF-1
 3,1.7.9,Countertop using Solid surface,,m2,,,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop""",rates,CAB-04

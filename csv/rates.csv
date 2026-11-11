@@ -12,7 +12,7 @@ Index,Identification,Description,Name,Quantity,Unit,Value
 1,PLA-1,Cement plaster 12mm CM 1:4 on walls,Plaster 12mm CM 1:4,1,m2,500
 1,PCC,PCC M15,Floor PCC,1,m3,11800
 1,WAL-06,Cement plaster 6mm CM 1:3 for ceiling/sunk areas,Plaster 6mm ceiling,1,m2,380
-1,WP,Cementitious 2-coat waterproofing with return up walls 300mm,Waterproofing cementitious,1,m2,350
+1,WP,Cementitious 2-coat waterproofing with return up walls 300mm,Waterproofing cementitious,1,m2,600
 1,WAL-08,Polymer-modified membrane waterproofing incl. protective screed,Waterproofing membrane,1,m2,520
 1,WAL-09,Chemical anchoring/jointing of new to old masonry,Joint bonding new to old wall,1,m,150
 1,FS-1,Cement screed 40mm avg. CM 1:4 with slope to drain,Floor screed 40mm,1,m2,350
@@ -83,7 +83,7 @@ Index,Identification,Description,Name,Quantity,Unit,Value
 1,CAB-06,"Vanity cabinet 600mm WPC with laminate finish, excl. basin",Vanity cabinet,1,count,9500
 1,CAB-07,"Soft-close hinge, supply and fix",Cabinet hinge,1,count,190
 1,CAB-08,"Cabinet handle/profile, supply and fix",Cabinet handle,1,count,260
-1,CAR,Cabinet Carpentry charges,Carpenter Labour,1,m2,700
+1,CAR,Cabinet Carpentry charges,Carpenter Labour,1,m2,7000
 1,DWV-01,WPC/PVC toilet door 80x210cm with frame and hardware,Door 80cm toilet WPC,1,count,18000
 1,DWV-02,Flush door 35mm veneer/laminate 80x210cm with frame and hardware,Door 80cm flush,1,count,17000
 1,DWV-03,"UPVC 2-track sliding window 1.5x1.17m, glazed with mesh",Window 1.5x1.17 aluminium,1,count,25000
